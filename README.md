@@ -1,24 +1,7 @@
-# README
+# Parallel / EventedFileUpdateChecker Hang Repro
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To repro, `bundle install && bundle exec rails runner repro.rb`
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repo is a brand new rails installation (`rails new`) with minor changes to
+repro
